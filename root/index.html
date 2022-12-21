@@ -6,34 +6,48 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- 
 </head>
 <body>
+  <header class="header">
+    <h1 class="firstTitle">Reliable, efficient delivery</h1>
   
-  Reliable, efficient delivery
-
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+    <h1 class="secondTitle">Powered by Technology</h2>
   
+    <section class="subInfo">Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful
+    </section>
+  </header>
+  <main>
+  <section class="cardContainer">
+
+    <section class="card supervisor">
+      <h3>Supervisor</h3>
+      <span>Monitors activity to identify project roadblocks</span>
+      <img src="images/icon-supervisor.svg" alt="Lupa">
+    </section>
+<section class="cardSubContainer">
+    <section class="card teamBuilder">
+      <h3>Team Builder</h3>
+      <span>Scans our talent network to create the optimal team for your project</span>
+      <img src="images/icon-team-builder.svg" alt="casita">
+    </section>
+    <section class="card karma">
+      <h3>Karma</h3>
+      <span>Regularly evaluates our talent to ensure quality</span>
+      <img src="images/icon-karma.svg" alt="bombilla">
+    </section>
+  </section>
+    <section class="card calculator">
+      <h3>Calculator</h3>
+      <span>Uses data from past projects to provide better delivery estimates</span>
+      <img src="images/icon-calculator.svg  " alt="pc">
+    </section>
+
+  </section>
+</main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

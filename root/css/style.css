@@ -7,14 +7,15 @@
      box-sizing: border-box;
 }
 body{
-     font-size: 15px;
+     font-size: 18px;
 }
-header {
+/*header {
      border: 10px tomato double;
 }
 main {
      border: 10px slateblue double;
-}
+}*/
+
 /*---------------------------*/
 
 /*---->HEADER SELECTORS<-----*/
@@ -24,9 +25,11 @@ main {
      align-items: center;
 }
 .firstTitle {
+     font-size: 35px;
      font-weight: 50;
 }
 .secondTitle {
+     font-size: 35px;
      font-weight: 900;
 }
 .subInfo {
@@ -37,8 +40,11 @@ main {
 /*---------------------------*/
 
 /*----->MAIN SELECTORS<------*/
+main {
+     margin-top: 50px;
+}
 .cardContainer {
-     background-color: blueviolet;
+     /*background-color: blueviolet;*/
      display: flex;
      flex-direction: row;
      gap: 20px;
@@ -51,19 +57,47 @@ main {
      flex-direction: column;
 }
 .card {
-     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     padding: 40px;
+     border-radius: 10px;
      width: 500px;
      height: 350px;
-     background-color: beige;
-     box-shadow: 0px 17px 35px 1px rgba(0,0,0,0.75);
+     background-color: #ffff;
+     box-shadow: 0px 17px 35px -13px rgba(0,0,0,0.75);
+}
+.card img {
+     width: 64px;
+     height: 64px;
+
+}
+.card span {
+     width: 90%;
+}
+.tituloCard {
+     font-size: 25px;
 }
 .card.supervisor {
      border-top: 5px rgb(0, 255, 0) solid;
 }
+.card.teamBuilder {
+     border-top: 5px rgb(255, 0, 0) solid;
+}
+.card.karma {
+     border-top: 5px rgb(255, 196, 3) solid;
+}
+.card.calculator {
+     border-top: 5px rgb(18, 141, 228) solid;
+}
 /*---------------------------*/
+/*---->FOOTER SELECTORS<-----*/
+footer {
+     margin-top: 90px;
+}
 .attribution {
      font-size: 11px; text-align: center;
      }
 .attribution a {
      color: hsl(228, 45%, 44%);
      }
+/*---------------------------*/

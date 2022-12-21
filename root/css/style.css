@@ -10,32 +10,27 @@
 body{
      font-size: 15px;
 }
-/*header {
-     border: 10px tomato double;
-}
-main {
-     border: 10px slateblue double;
-}*/
-
 /*---------------------------*/
 
 /*---->HEADER SELECTORS<-----*/
 .header {
+     margin-top: 40px;
      display: flex;
      flex-direction: column;
      align-items: center;
 }
 .firstTitle {
      font-size: 35px;
-     font-weight: 50;
+     font-weight: 100;
 }
 .secondTitle {
      font-size: 35px;
      font-weight: 900;
+     color: hsl(234, 12%, 34%);
 }
 .subInfo {
-     color: rgba(82, 88, 88, 0.493);
-     width: 25%;
+     color: hsl(229, 6%, 66%);
+     width: 40%;
      text-align: center;
      margin-top: 15px;
 }
@@ -49,12 +44,12 @@ main {
      /*background-color: blueviolet;*/
      display: flex;
      flex-direction: row;
-     gap: 20px;
+     gap: 30px;
      justify-content: center;
      align-items: center;
 }
 .cardSubContainer {
-     gap: 20px;
+     gap: 30px;
      display: flex;
      flex-direction: column;
 }
@@ -64,7 +59,7 @@ main {
      padding: 40px;
      border-radius: 10px;
      width: 450px;
-     height: 300px;
+     height: 320px;
      background-color: #ffff;
      box-shadow: 0px 17px 35px -13px rgba(0,0,0,0.75);
 }
@@ -74,11 +69,13 @@ main {
      margin: 20% 0 0 80%;
 }
 .card span {
-     color: rgba(82, 88, 88, 0.493);
+     color: hsl(229, 6%, 66%);
      width: 90%;
 }
 .tituloCard {
+     font-weight: 700;
      font-size: 25px;
+     color: hsl(234, 12%, 34%);
 }
 .card.supervisor {
      border-top: 5px rgb(0, 255, 0) solid;
